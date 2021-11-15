@@ -5,8 +5,8 @@ def redshift_connect(query1):
     conn = redshift_connector.connect(
     host='bhargav-redshift-cluster-1.cokuuopwai1b.us-east-1.redshift.amazonaws.com',
     database='dev',
-    user='awsuser',
-    password='Awsuser123'
+    user='xxx',
+    password='xxx'
     )
     cursor: redshift_connector.Cursor = conn.cursor()
     cursor.execute(query1)
